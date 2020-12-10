@@ -1,0 +1,20 @@
+{
+  "id": 122,
+  "created_at": "2019-02-16",
+  "updated_at": "2019-02-16",
+  "title": "Forced Ether Reception",
+  "author": {
+    "name": "midnight",
+    "website": "",
+    "username": null
+  },
+  "module_name": "example2",
+  "publish_date": "2019-02-16",
+  "vulnerable_versions": "<=1.1.1",
+  "patched_versions": null,
+  "overview": "Contracts can be forced to receive Ether\n",
+  "recommendation": "There is no way to block the reception of ether. The only mitigation is to avoid assuming how the balance of the contract increases and implement checks to handle this type of edge cases.",
+  "references": [
+    "https://github.com/crytic/not-so-smart-contracts/tree/master/forced_ether_reception"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": 323,
+  "created_at": "2019-12-21",
+  "updated_at": "2019-12-21",
+  "title": "Integer Overflow",
+  "author": {
+    "name": "buddy",
+    "website": "",
+    "username": null
+  },
+  "module_name": "example3",
+  "publish_date": "2019-12-21",
+  "vulnerable_versions": "<=1.1.1",
+  "patched_versions": null,
+  "overview": "Arithmetic in Solidity (or EVM) is not safe by default",
+  "recommendation": "Use openZeppelin's safeMath library\nValidate all arithmetic",
+  "references": [
+    "https://github.com/crytic/not-so-smart-contracts/tree/master/integer_overflow"
+  ]
+}

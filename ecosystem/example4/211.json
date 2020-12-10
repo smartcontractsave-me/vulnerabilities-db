@@ -1,0 +1,20 @@
+{
+  "id": 378,
+  "created_at": "2018-04-06",
+  "updated_at": "2018-04-06",
+  "title": "Reentrancy",
+  "author": {
+    "name": "blackyBlue",
+    "website": "",
+    "username": null
+  },
+  "module_name": "example4",
+  "publish_date": "2018-04-06",
+  "vulnerable_versions": "<=1.1.1",
+  "patched_versions": null,
+  "overview": "Calling external contracts gives them control over execution",
+  "recommendation": "Avoid use of call.value\nUpdate all bookkeeping state variables before transferring execution to an external contract.",
+  "references": [
+    "https://github.com/crytic/not-so-smart-contracts/tree/master/reentrancy"
+  ]
+}

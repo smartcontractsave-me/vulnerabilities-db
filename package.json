@@ -1,0 +1,17 @@
+{
+  "name": "vulnerabilities-db",
+  "version": "1.0.0",
+  "description": "Dataset of smart contract vulnerabilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tools/vuln_valid"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "license": "MIT",
+  "homepage": "https://smratcontractsave.me",
+  "dependencies": {
+    "recursive-readdir": "^2.2.2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": 378,
+  "created_at": "2018-02-26",
+  "updated_at": "2018-02-26",
+  "title": "Bad randomness",
+  "author": {
+    "name": "bl4de",
+    "website": "",
+    "username": null
+  },
+  "module_name": "example1",
+  "publish_date": "2018-02-26",
+  "vulnerable_versions": "<=1.1.1",
+  "patched_versions": null,
+  "overview": "Contract attempts to get on-chain randomness, which can be manipulated by users",
+  "recommendation": "There are currently not any recommended mitigation for this issue. Do not build applications that require on-chain randomness.",
+  "references": [
+    "https://github.com/crytic/not-so-smart-contracts/tree/master/bad_randomness"
+  ]
+}
